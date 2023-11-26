@@ -1,9 +1,9 @@
 
 # 使用 vite + vue 的思源笔记插件示例
 
-No time to update all infos. If u wanna chat with me, see [开发经验分享 & 联系作者](#使用技巧开发经验分享联系作者).
+No time to update all infos. If u wanna chat with me, see [使用技巧、开发经验分享、联系作者](#使用技巧开发经验分享联系作者).
 
-没时间更新所有内容，如果你想跟我交流，参考 [开发经验分享 & 联系作者](#使用技巧开发经验分享联系作者)。
+没时间更新所有内容，如果你想跟我交流，参考 [使用技巧、开发经验分享、联系作者](#使用技巧开发经验分享联系作者)。
 
 ---
 
@@ -86,7 +86,7 @@ No time to update all infos. If u wanna chat with me, see [开发经验分享 & 
 目前我开发插件不涉及上架，所以这一块参考：[plugin-sample-vite-svelte 打包](https://github.com/siyuan-note/plugin-sample-vite-svelte/blob/main/README_zh_CN.md#%E6%89%93%E5%8C%85)。
 
 
-## 使用技巧&开发经验分享&联系作者
+## 使用技巧、开发经验分享、联系作者
 
 有关于思源笔记插件的开发经验，我会写在这里：[思源笔记插件开发经验](https://simplest-frontend.feishu.cn/wiki/MhtDwo9EnimFTtkvSlqcSCHDnbd)
 
