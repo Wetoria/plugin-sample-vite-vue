@@ -1,9 +1,9 @@
 
 # 使用 vite + vue 的思源笔记插件示例
 
-No time to update all infos. If u wanna chat with me, see [开发经验分享 & 联系作者](./开发经验分享&联系作者).
+No time to update all infos. If u wanna chat with me, see [开发经验分享 & 联系作者](#开发经验分享联系作者).
 
-没时间更新所有内容，如果你想跟我交流，参考 [开发经验分享 & 联系作者](./开发经验分享&联系作者)。
+没时间更新所有内容，如果你想跟我交流，参考 [开发经验分享 & 联系作者](#开发经验分享联系作者)。
 
 ---
 
