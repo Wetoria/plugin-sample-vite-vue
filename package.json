@@ -9,6 +9,7 @@
   "repository": "",
   "scripts": {
     "dev": "vite build --watch",
+    "commitAndTag": "git add ./plugin.json && git commit -m 'update version' && git push && node ./autoTag.js",
     "build": "vite build"
   },
   "dependencies": {
