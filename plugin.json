@@ -2,7 +2,7 @@
   "name": "plugin-sample-vite-vue",
   "author": "wetoria",
   "url": "https://github.com/Wetoria/plugin-sample-vite-vue",
-  "version": "0.2.9",
+  "version": "0.0.1",
   "minAppVersion": "2.10.14",
   "backends": [
     "all"

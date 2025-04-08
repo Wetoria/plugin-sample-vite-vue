@@ -1,15 +1,27 @@
 import { resolve } from "path";
-import { defineConfig, loadEnv } from "vite";
-import minimist from "minimist";
-import { viteStaticCopy } from "vite-plugin-static-copy";
-import livereload from "rollup-plugin-livereload";
-import zipPack from "vite-plugin-zip-pack";
-import fg from "fast-glob";
 import vue from "@vitejs/plugin-vue";
+import fg from "fast-glob";
+import minimist from "minimist";
+import livereload from "rollup-plugin-livereload";
+import {
+  defineConfig,
+} from "vite";
+import { viteStaticCopy } from "vite-plugin-static-copy";
+import zipPack from "vite-plugin-zip-pack";
+const pluginInfo = require("./plugin.json");
+
+// 更改 siyuanDir 为你的思源工作空间的所在目录
+// 例如：/Users/example/Siyuan
+
+// Change siyuanDir to your Siyuan workspace directory
+// For example: /Users/example/Siyuan
+
+// const siyuanDir = "/Users/example/Siyuan";
+const siyuanDir = "";
+const devDistDir = siyuanDir ? `${siyuanDir}/data/plugins/${pluginInfo.name}` : './dev';
 
 const args = minimist(process.argv.slice(2));
 const isWatch = args.watch || args.w || false;
-const devDistDir = "./dev";
 const distDir = isWatch ? devDistDir : "./dist";
 
 console.log("isWatch=>", isWatch);
@@ -62,7 +74,7 @@ export default defineConfig({
   build: {
     // 输出路径
     outDir: distDir,
-    emptyOutDir: false,
+    emptyOutDir: true,
 
     // 构建后是否生成 source map 文件
     sourcemap: false,
