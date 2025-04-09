@@ -102,12 +102,3 @@
 ---
 
 更多有关于插件的信息，请查看： [siyuan/plugin-sample](https://github.com/siyuan-note/plugin-sample).
-
-由 [Github · Wetoria](https://github.com/wetoria) 进行维护
-
-QQ：369708753
-
-
-## 鸣谢
-
-- [plugin-sample-vite-svelte](https://github.com/siyuan-note/plugin-sample-vite-svelte)

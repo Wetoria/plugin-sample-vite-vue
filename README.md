@@ -100,12 +100,3 @@ The github action is included in this sample, you can use it to publish your new
 ---
 
 More other plugin info, please check in [siyuan/plugin-sample](https://github.com/siyuan-note/plugin-sample).
-
-Maintained by [Github · Wetoria](https://github.com/wetoria)
-
-Discord: vwetoria | Wetoria#4533
-
-
-## 鸣谢
-
-- [plugin-sample-vite-svelte](https://github.com/siyuan-note/plugin-sample-vite-svelte)
