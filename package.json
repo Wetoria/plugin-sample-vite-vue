@@ -9,7 +9,11 @@
   "repository": "",
   "scripts": {
     "dev": "vite build --watch",
-    "commitAndTag": "git add ./plugin.json && git commit -m 'update version' && git push && node ./autoTag.js",
+    "release": "node ./release.js",
+    "release:manual": "node ./release.js --mode=manual",
+    "release:patch": "node ./release.js --mode=patch",
+    "release:minor": "node ./release.js --mode=minor",
+    "release:major": "node ./release.js --mode=major",
     "build": "vite build"
   },
   "dependencies": {

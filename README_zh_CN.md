@@ -58,9 +58,11 @@
 
 > [!TIP]
 >
-> 这个项目提供了一个根据 `plugin.json` 中的 `version` 自动创建 `tag` 的脚本。更改 `plugin.json` 中的 `version` 并保存文件，然后在项目根目录运行 `pnpm commitAndTag`。
+> 这个项目提供了自动创建 `tag` 并发布新版本的脚本，你可以通过运行 `pnpm release` 创建一个修正版本。
 >
-> 脚本会用 `update version` 提交你的 `plugin.json` 文件。然后使用 `version` 创建 `tag` 并推送至 Github。
+> 你可以通过使用参数 `--mode=manual|patch|minor|major` 设置版本号的调整模式，或者通过 `pnpm release:manual` 的方式直接以特定参数进行发布。
+>
+> 完整的命令列表请查看 `package.json` 文件。
 
 
 样例中自带了 github action，可以自动打包发布，请遵循以下操作：

@@ -56,11 +56,11 @@
 
 > [!TIP]
 >
-> This template provided a script to auto tag. Change your plugin version in `plugin.json` and save the file, then run `pnpm commitAndTag` in the project root.
+> This template provided a script to auto create tag and release. You can use `pnpm release` to create a patch version.
 >
-> The script will help you to commit the `plugin.json` file as `update version`.
->
-> Then use the `version` in `plugin.json` to create a `tag` and push to the Github.
+> You can add `--mode=manual|patch|minor|major` arg to set release mode, or run with arg like `pnpm release:manual`. 
+> 
+> All the scripts please see the `package.json` file.
 
 The github action is included in this sample, you can use it to publish your new realse to marketplace automatically:
 
