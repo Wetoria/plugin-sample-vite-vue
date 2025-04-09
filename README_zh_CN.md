@@ -24,11 +24,14 @@
 2. 使用 `git clone` 克隆创建好的仓库。
 3. 使用 `pnpm i` 安装项目所需的依赖。
 
-4. 打开 [vite.config.ts](./vite.config.ts) 文件，并将里面的 `siyuanDir` 更改为你自己的思源工作空间。
+4. 复制 `.env.example` 文件并取名为 `.env`，修改其中的 `VITE_SIYUAN_WORKSPACE_PATH` 为你的思源工作空间。
+
 
 > [!TIP]
 >
 > 如果你不喜欢将项目打包至工作空间中，可以使用 `软链接` 的方式。
+>
+> 设置 `VITE_DEV_DIST_DIR` 为任意文件夹，然后使用 `软链接` 链接 `siyuan_workspace/data/plugins/your_plugin_name` 目录到 `VITE_DEV_DIST_DIR`。
 
 
 5. 使用 `pnpm dev` 启动项目。

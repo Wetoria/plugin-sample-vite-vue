@@ -24,11 +24,14 @@
 2. Use `git clone` to clone the copied repo to your computer.
 3. Use `pnpm i` to install the dependencies.
 
-4. Go to the [vite.config.ts](./vite.config.ts) and change the `siyuanDir` to your workspace.
+4. Copy the `.env.example` file as `.env`, set the `VITE_SIYUAN_WORKSPACE_PATH` to your SiYuan workspace.
+
 
 > [!TIP]
 >
 > If you don't like build the project into your workspace, you can use `Symbolic Link` to link the folder.
+>
+> Set `VITE_DEV_DIST_DIR` to any folder, and use `Symbolic Link` to link `siyuan_workspace/data/plugins/your_plugin_name` to `VITE_DEV_DIST_DIR`.
 
 
 5. Use `pnpm dev` to run the project.
