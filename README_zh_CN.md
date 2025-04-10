@@ -7,7 +7,7 @@
 1. 使用 Vite 打包
 2. 使用 Vue3 进行开发
 3. 提供一个github action 模板，能自动生成package.zip并上传到新版本中
-4. 提供自动根据 `plugin.json` 里的 `version` 创建 `tag` 的脚本
+4. 提供自动更新 `plugin.json` 中的 `version` 并发布新版本的脚本。[link](#release-script)
 
 > [!NOTE]
 >
@@ -56,9 +56,10 @@
 1. 你可以在本地使用插件的版本创建一个名为 `v*` 的 tag。
 2. 将创建好的 tag 推送至 Github。模板项目提供了 Action 脚本自动构建新版本。
 
+
 > [!TIP]
 >
-> 这个项目提供了自动创建 `tag` 并发布新版本的脚本，你可以通过运行 `pnpm release` 创建一个修正版本。
+> <div id="release-script"></div>这个项目提供了自动创建 `tag` 并发布新版本的脚本，你可以通过运行 `pnpm release` 创建一个修正版本。
 >
 > 你可以通过使用参数 `--mode=manual|patch|minor|major` 设置版本号的调整模式，或者通过 `pnpm release:manual` 的方式直接以特定参数进行发布。
 >

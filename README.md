@@ -7,7 +7,7 @@
 1. Use Vite for packaging
 2. Use Vue3 for development
 3. Provides a github action template to automatically generate package.zip and upload to new release
-4. Provides a script to auto create tag with `version` in `plugin.json`
+4. Provides a script to auto create tag and release. [link](#release-script)
 
 > [!NOTE]
 >
@@ -56,7 +56,7 @@
 
 > [!TIP]
 >
-> This template provided a script to auto create tag and release. You can use `pnpm release` to create a patch version.
+> <div id="release-script"></div>This template provided a script to auto create tag and release. You can use `pnpm release` to create a patch version.
 >
 > You can add `--mode=manual|patch|minor|major` arg to set release mode, or run with arg like `pnpm release:manual`. 
 > 
